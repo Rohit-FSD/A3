@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Student Enrollment Form</title>
+  </head>
+  <body>
+    <header>
+        <h1 class="display-4 center page-header">
+            Student Enrollment Form
+        </h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-3 col-lg-5">
+                    <form >
+                        <div class="form-group row">
+                            <label for="name" class="col-sm-2  col-form-label">Name</label>
+                            <div class="col-sm-8 col-md-6 col-lg-8">
+                              <input type="name" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="email" class="col-sm-2  col-form-label">Email</label>
+                            <div class="col-sm-8 col-md-6 col-lg-8">
+                              <input type="email" class="form-control" id="email">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="website" class="col-sm-2  col-form-label">Website</label>
+                            <div class="col-sm-8 col-md-6 col-lg-8">
+                              <input type="website" class="form-control" id="website">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="imagelink" class="col-sm-2  col-form-label">ImageLink</label>
+                            <div class="col-sm-8 col-md-6 col-lg-8">
+                              <input type="imagelink" class="form-control" id="imagelink">
+                            </div>
+                          </div>
+                          
+                          <fieldset class="form-group">
+                            <div class="row">
+                              <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                              <div class="col-sm-10">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="gridRadios1">
+                                    Male 
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                  <label class="form-check-label" for="gridRadios2">
+                                    Female 
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                          <div class="form-group row">
+                            <div class="col-sm-2">Skills</div>
+                            <div class="col-sm-10">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1" value=option1>
+                                <label class="form-check-label" for="gridCheck1">
+                                  Java 
+                                </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="gridCheck2" value=option2>
+                                <label class="form-check-label" for="gridCheck2">
+                                  HTML 
+                                </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="gridCheck3" value=option3>
+                                <label class="form-check-label" for="gridCheck3">
+                                  CSS 
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div >
+                              <button class="btn btn-primary btn-lg " type="submit">Enroll Student</button>
+                              <button class="btn btn-danger btn-lg" type="reset">Clear</button>
+                          </div>
+                      </form>
+                </div>
+                <div class="col-sm-10 col-md-1 col-lg-1">
+                    <span class="vertical-line"></span>
+                </div>
+                <div class="col-sm-10 col-md-3 col-lg-6">
+                    <h4 class="center">Enrolled Students</h4>
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th colspan="8" class="table-heading" scope="col">Description</th>
+                          <th colspan="2" class="table-heading" scope="col">Image</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th colspan="8" scope="row"></th>
+                          <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                          <th colspan="8" scope="row"></th>
+                          <td colspan="2"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="center">
+        <h6 class="lead">
+            Copyright 2020_2021 By Fresher Training
+        </h6>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
